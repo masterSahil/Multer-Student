@@ -24,7 +24,7 @@ const Form = () => {
   const [messageType, setMessageType] = useState('');
   const [message, setMessage] = useState(false);
 
-  const URL = "http://localhost:3000";
+  const URL = "https://multer-student-1.onrender.com";
   const submit = async () => {
     try {
       const res = await axios.post(URL, userData, {

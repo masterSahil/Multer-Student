@@ -20,7 +20,7 @@ const ViewAll = () => {
 
     const [loading, setLoading] = useState(true);
 
-    const URL = "http://localhost:3000";
+    const URL = "https://multer-student-1.onrender.com";
     const getData = async () => {
         setLoading(true)
         try {
@@ -72,7 +72,7 @@ const ViewAll = () => {
             <div className="image-gallery" >
                 {image.map((val, key) => (
                     <div key={key} className="image-card" onClick={() => navigate(`/view/${val._id}`)}>
-                        <img src={val.image? `http://localhost:3000/uploads/${val.image}` : avatar} 
+                        <img src={val.image? `https://multer-student-1.onrender.com/uploads/${val.image}` : avatar} 
                         alt={val.name} className="profiles" />
                         <h4>{val.name}</h4>
                         <p>{val.course}</p>

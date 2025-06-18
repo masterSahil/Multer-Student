@@ -27,8 +27,8 @@ const View = () => {
 
   const Navigate = useNavigate();
 
-  const URL = "http://localhost:3000";
-  const Profile_URL = "http://localhost:3000/delete-profile";
+  const URL = "https://multer-student-1.onrender.com";
+  const Profile_URL = "https://multer-student-1.onrender.com/delete-profile";
 
   const fetchStudents = async () => {
     try {
@@ -189,7 +189,7 @@ const View = () => {
         <div className="card-grid">
         <div className="student-card">
           <img
-            src={student.image? `http://localhost:3000/uploads/${student.image}` : avatar}
+            src={student.image? `https://multer-student-1.onrender.com/uploads/${student.image}` : avatar}
             alt={student.name}
             className="student-image"
           />
@@ -225,7 +225,7 @@ const View = () => {
         <div className="card-grid">
           <div className="student-card">
             <img
-              src={student.image? `http://localhost:3000/uploads/${student.image}` : avatar}
+              src={student.image? `https://multer-student-1.onrender.com/uploads/${student.image}` : avatar}
               alt={student.name}
               className="student-image"
             />
