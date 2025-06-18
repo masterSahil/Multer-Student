@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './View.css'; // Custom CSS for View
+import './view.css'; // Custom CSS for View
 import { useNavigate, useParams } from 'react-router-dom';
 import avatar from '../src/assets/avatar/avatar.png';
 import { AiOutlineCheckCircle, AiOutlineWarning } from "react-icons/ai";
