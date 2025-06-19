@@ -33,7 +33,6 @@ const Form = () => {
         },
       });
 
-      // alert("Data Added Successfully");
       setMessage(true);
       setSuccessMsg("Data Added Successfully");
       setMessageType("success");
