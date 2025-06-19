@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { FaPlus } from 'react-icons/fa';
 import avatar from '../src/assets/avatar/avatar.png'
-import './app.css'
+import './App.css'
 import { AiOutlineCheckCircle, AiOutlineWarning } from 'react-icons/ai';
 import { IoClose } from 'react-icons/io5';
 
